@@ -1,13 +1,18 @@
-<?php 
+<?php
 require_once '../app/core/Controller.php';
-class About extends Controller {
-    public function index($nama = 'test', $pekerjaan = 'programmer', $umur = 32 ) {
+class About extends Controller
+{
+    public function index($nama = 'test', $pekerjaan = 'programmer', $umur = 32)
+    {
         $data['nama'] = $nama;
         $data['pekerjaan'] = $pekerjaan;
         $data['umur'] = $umur;
-        $this->view('about/index', $data);
+        $this->view('templates/header', $data);
+        $this->view('about/ index');
+        $this->view('templates/footer');
     }
-    public function page() {
+    public function page()
+    {
         $this->view('about/page');
     }
 }

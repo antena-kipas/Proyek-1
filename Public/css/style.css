@@ -10,7 +10,7 @@ body {
     /* overflow-x: hidden; */
 }
 
-.navbar {
+.navbarr {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -18,29 +18,29 @@ body {
     padding: 10px 20px;
 }
 
-.navbar ul {
+.navbarr ul {
     display: flex;
     list-style: none;
     justify-content: space-between;
     padding-right: 45px;
 }
 
-.logo {
+.logoo {
     display: flex;
     align-items: center;
 }
 
-.logo img {
+.logoo img {
     width: 40px; /* Sesuaikan dengan ukuran logo Anda */
     margin-right: 10px;
 }
 
-.logo span {
+.logoo span {
     color: white;
     font-weight: bold;
 }
 
-.nav-links a {
+.nav-linkss a {
     color: #ffffff;
     background-color: #ffffff;
     padding: 8px 15px;
@@ -52,12 +52,12 @@ body {
     transition:  0.3s;
 }
 
-.nav-links a:hover {
+.nav-linkss a:hover {
     background-color: #4d8b7b;
     color: white;
 }
 
-.menu-toggle {
+.menu-togglee {
     display: none;
     flex-direction: column;
     height: 20px;
@@ -69,10 +69,10 @@ body {
 
 @media screen and (max-width: 768px){
 
-    .menu-toggle {
+    .menu-togglee {
         display: flex;
     }
-    .navbar ul {
+    .navbarr ul {
         position: absolute;
         right: 0;
         height: 100vh;
@@ -96,10 +96,10 @@ body {
 /* responsive breakpoint mobile */
 
 @media screen and (max-width: 576px){
-    .menu-toggle {
+    .menu-togglee {
         display: flex;
     }
-    .navbar ul {
+    .navbarr ul {
         position: absolute;
         right: 0;
         height: 100vh;
@@ -123,7 +123,7 @@ body {
 
 
 
-.menu-toggle input {
+.menu-togglee input {
     position: absolute;
     width: 40px;
     height: 28px;
@@ -134,7 +134,7 @@ body {
     z-index: 2;
 }
 
-.menu-toggle span{
+.menu-togglee span{
     display: block;
     width: 28px;
     height: 3px;
@@ -144,25 +144,25 @@ body {
 }
 
 /* hamburger menu animasi */
-.menu-toggle span:nth-child(2) {
+.menu-togglee span:nth-child(2) {
     transform-origin: 0 0;
 }
 
-.menu-toggle span:nth-child(4) {
+.menu-togglee span:nth-child(4) {
     transform-origin: 0 100%;
 }
-.menu-toggle input:checked ~ span:nth-child(2){
+.menu-togglee input:checked ~ span:nth-child(2){
     background-color: white;
     transform: rotate(45deg) translate(-1px, -1px );
 }
 
-.menu-toggle input:checked ~ span:nth-child(4){
+.menu-togglee input:checked ~ span:nth-child(4){
     background-color: white;
     transform: rotate(-45deg) translate(-1px, 0);
 }
 
 
-.menu-toggle input:checked ~ span:nth-child(3){
+.menu-togglee input:checked ~ span:nth-child(3){
     opacity: 0;
     transform: scale(0);
 }

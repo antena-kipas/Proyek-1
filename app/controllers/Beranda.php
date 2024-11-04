@@ -1,11 +1,12 @@
 <?php
 
-class Home extends Controller {
+class Beranda extends Controller
+{
     public function index()
     {
-        $data['judul'] = 'Home';
+        $data['judul'] = 'Berannda';
         $this->view('templates/header', $data);
-        $this->view('Home/index');
+        $this->view('Beranda/index');
         $this->view('templates/footer');
     }
 }
