@@ -1,6 +1,6 @@
 
 <!-- Footer Section -->
-    <footer class="z-index-0 bg-light text-center py-4">
+    <footer class="z-index-0 bg-light text-center py-4" style="z-index: -999;">
       <p class="mb-0">© 2024 UKM Kesehatan Lingkungan. All rights reserved.</p>
     </footer>
 
