@@ -4,7 +4,8 @@ class Program extends Controller
 {
     public function index()
     {
-        $this->view('templates/header');
+        $data['judul'] = 'Program';
+        $this->view('templates/header', $data);
         $this->view('program/index');
         $this->view('templates/footer');
     }

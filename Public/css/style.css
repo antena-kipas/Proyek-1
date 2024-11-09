@@ -10,6 +10,47 @@ body {
     /* overflow-x: hidden; */
 }
 
+.card {
+    background-color: #b6e4da;
+    border: none;
+    margin-bottom: 20px;
+}
+.card-header {
+    background-color: #77c3a1;
+    color: white;
+    font-weight: bold;
+}
+.card-body {
+    color: #333333;
+}
+
+
+.feature-box {
+    padding: 20px;
+    background-color: #4CAF50; /* Warna hijau pekat pada kotak */
+    color: white; /* Warna teks putih */
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 10px; /* Membulatkan sudut */
+    text-decoration: none; /* Menghilangkan garis bawah */
+    height: 100px; /* Tinggi tetap untuk semua kotak */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.feature-box a {
+    color: white; /* Warna teks putih pada tautan */
+    text-decoration: none; /* Menghilangkan garis bawah */
+}
+.feature-box a:hover {
+    color: #E8E8E8; /* Warna sedikit lebih terang saat hover */
+}
+.program-title {
+    color: #4CAF50; /* Warna hijau pada judul */
+    font-weight: bold;
+}
+
 .z-index-0 {
     z-index: 0;
 }
@@ -171,4 +212,5 @@ body {
     opacity: 0;
     transform: scale(0);
 }
+
 
