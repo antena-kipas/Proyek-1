@@ -10,17 +10,17 @@ body {
     /* overflow-x: hidden; */
 }
 
-.card {
+.custom-card {
     background-color: #b6e4da;
     border: none;
     margin-bottom: 20px;
 }
-.card-header {
+.custom-card-header {
     background-color: #77c3a1;
     color: white;
     font-weight: bold;
 }
-.card-body {
+.custom-card-body {
     color: #333333;
 }
 
@@ -58,7 +58,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #6DB7A7;
+    background-color: #66B4A7;
     padding: 10px 20px;
     z-index: 10;
 }
@@ -211,6 +211,55 @@ body {
 .menu-togglee input:checked ~ span:nth-child(3){
     opacity: 0;
     transform: scale(0);
+}
+
+/* css halaman about */
+
+.container {
+    max-width: 700px; /* Lebar kontainer disesuaikan */
+    margin: 0 auto;
+    text-align: center;
+}
+
+.header {
+    background-color: #67A979;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 22px;
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center; /* Ukuran font lebih besar */
+}
+
+.content {
+    margin-top: 20px;
+    line-height: 1.8; /* Spasi antar baris sedikit diperbesar */
+    color: #67A979; /* Warna teks */
+    font-size: 16px;
+    text-align: left; /* Sesuaikan ukuran font */
+}
+
+.ukm-essensial {
+    background-color: #67a979;
+    color: white;
+    padding: 8px 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 18px; /* Ukuran font lebih besar */
+}
+
+ul {
+    margin-top: 10px;
+    padding-left: 20px;
+    color: #67a979; /* Warna teks di dalam list */
+}
+
+ul li {
+    margin-bottom: 5px;
 }
 
 

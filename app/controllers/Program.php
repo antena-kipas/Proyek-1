@@ -6,7 +6,7 @@ class Program extends Controller
     {
         $data['judul'] = 'Program';
         $this->view('templates/header', $data);
-        $this->view('program/index');
+        $this->view('program/index', $data);
         $this->view('templates/footer');
     }
 }
