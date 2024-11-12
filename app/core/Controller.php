@@ -1,7 +1,9 @@
 <?php
 
 class Controller {
-    public function __construct () {
-        echo 'mesin';
+    
+    public function view($view, $data =  [])
+    {
+        require_once '../app/views/' . $view . '.php';
     }
 }
