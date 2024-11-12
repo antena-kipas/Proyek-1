@@ -1,27 +1,27 @@
-    <div class="container mt-4" style="font-family: sans-serif; font-size: 16px; text-align: justify; ">
+    <div class="container mt-4 font-weight-bold" style="font-family: sans-serif; font-size: 16px; text-align: justify; ">
         <!-- Program UKM Kesehatan Lingkungan -->
-        <div class="col-sm-2 col-sm-4"style="background-color: #67A979; color: white; font-weight: bold; padding: 8px 20px; border-radius: 5px; margin-bottom: 10px;">
+        <div class="d-inline-block"style="background-color: #67A979; color: white; font-weight: bold; padding: 8px 20px; border-radius: 5px; margin-bottom: 10px;">
                 Program UKM Kesehatan Lingkungan
         </div>
-        <div class="card" style="background-color: #66B4A7; border: none; margin-bottom: 20px; padding: 20px;">
+        <div class="card d-inline-block" style="background-color: #66B4A7; border: none; margin-bottom: 20px; padding: 20px;">
             
-            <div class="card-body" style="color: white;">
+            <div class="card-body d-inline-block" style="color: white;">
                 <p>&nbsp; Program UKM Kesehatan Lingkungan adalah salah satu kegiatan UKM (Upaya Kesehatan Masyarakat) yang berfokus pada masalah lingkungan. Program ini bertujuan untuk menyimbangkan kondisi ekologi antara manusia dan lingkungannya, sehingga kualitas hidup manusia dapat menjadi lebih sehat dan bahagia.</p>
             </div>
         </div>
 
 
-        <div class="col-sm-2 col-sm-2"style="background-color: #67A979; color: white; font-weight: bold; padding: 8px 20px; border-radius: 5px; margin-bottom: 10px;">
+        <div class="d-inline-block"style="background-color: #67A979; color: white; font-weight: bold; padding: 8px 20px; border-radius: 5px; margin-bottom: 10px;">
                 Perilaku penghuni
         </div>
         <!-- Perilaku penghuni -->
-        <div class="card" style="background-color: #66B4A7; border: none; margin-bottom: 20px; padding: 20px;">
+        <div class="card d-inline-block" style="background-color: #66B4A7; border: none; margin-bottom: 20px; padding: 20px;">
             <div class="card-body" style="color: white;">
                 <p>&nbsp; Perilaku penghuni rumah atau masyarakat sangat berpengaruh terhadap keberhasilan program kesehatan lingkungan yang dijalankan oleh pemerintah atau tim puskesmas. Edukasi berkelanjutan serta pengawasan oleh tim kesehatan lingkungan dapat membantu menciptakan perilaku yang lebih baik untuk menjaga kebersihan dan kesehatan lingkungan.</p>
             </div>
         </div>
 
-        <div class="col-sm-2 col-sm-4"style="background-color: #67A979; color: white; font-weight: bold; padding: 8px 20px; border-radius: 5px; margin-bottom: 10px;">
+        <div class="d-inline-block"style="background-color: #67A979; color: white; font-weight: bold; padding: 8px 20px; border-radius: 5px; margin-bottom: 10px;">
                 Pemeriksaan Kualitas Air Secara Fisik
         </div>
         <!-- Pemeriksaan Kualitas Air Secara Fisik -->
@@ -31,7 +31,7 @@
             </div>
         </div>
         
-        <div class="col-sm-2 col-sm-4"style="background-color: #67A979; color: white; font-weight: bold; padding: 8px 20px; border-radius: 5px; margin-bottom: 10px;">
+        <div class="d-inline-block"style="background-color: #67A979; color: white; font-weight: bold; padding: 8px 20px; border-radius: 5px; margin-bottom: 10px;">
             Sanitasi Sarana Jamban Keluarga
         </div>
         <!-- Sanitasi Sarana Jamban Keluarga -->
@@ -41,7 +41,7 @@
             </div>
         </div>
 
-        <div class="col-sm-2 col-sm-3"style="background-color: #67A979; color: white; font-weight: bold; padding: 8px 20px; border-radius: 5px; margin-bottom: 10px;">
+        <div class="d-inline-block"style="background-color: #67A979; color: white; font-weight: bold; padding: 8px 20px; border-radius: 5px; margin-bottom: 10px;">
             Sanitasi Sarana Air Bersih
         </div>
         <!-- Sanitasi Sarana Air Bersih -->
@@ -52,7 +52,7 @@
         </div>
 
 
-        <div class="col-sm-2 col-sm-1"style="background-color: #67A979; color: white; font-weight: bold; padding: 8px 20px; border-radius: 5px; margin-bottom: 10px;">
+        <div class="d-inline-block"style="background-color: #67A979; color: white; font-weight: bold; padding: 8px 20px; border-radius: 5px; margin-bottom: 10px;">
             Rumah Sehat
         </div>
         <!-- Rumah Sehat -->
