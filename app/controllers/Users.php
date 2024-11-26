@@ -4,6 +4,10 @@ require_once '../models/user.php';
 require_once '../core/session.php';
 class Users {
 
+    public function index() {
+        $this->view('../Private/Dashboard.php');
+    }
+
     private $userModel;
     public function __construct()
     {
@@ -66,7 +70,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
             $init->login();
             break;
         default:
-        redirect("http://localhost/Proyek-1/Private/Dashboard.php ");
+        redirect("http://localhost/Proyek-1/Private/Dashboard.php");
     }
     
 }else{
