@@ -1,0 +1,72 @@
+# ==================================
+# Umum
+# ==================================
+
+# Sistem Operasi
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+desktop.ini
+
+# Folder & File Editor
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Log
+*.log
+
+# File kompresi & backup
+*.zip
+*.tar.gz
+*.rar
+*.7z
+*~
+*.bak
+*.tmp
+
+# Node.js (jika pakai)
+node_modules/
+npm-debug.log*
+
+# Composer (jika pakai PHP)
+vendor/
+composer.lock
+
+# Laravel (jika pakai Laravel)
+.env
+.env.*
+storage/
+bootstrap/cache/
+
+# Folder build/dist (jika ada)
+dist/
+build/
+
+# Cache frontend
+.cache/
+.next/
+out/
+*.local
+
+# File database lokal
+*.sqlite
+*.sqlite3
+*.db
+
+# File pribadi / testing
+.env
+.env.local
+.env.development
+.env.production
+credentials.json
+
+# Deployment
+.env.production
+.env.staging
+.env.development
+
+
+
